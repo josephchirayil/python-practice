@@ -7,7 +7,7 @@ while True:
    
    password = input()
   
-   if passwprd != 'password':
+   if password != 'password':
     continue
     
    if password == 'password':
