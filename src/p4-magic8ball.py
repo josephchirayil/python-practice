@@ -21,5 +21,5 @@ def getAnswer(answerNumber):
         return 'Very doubtful.'
         
 magicNumber = random.randint(1,9)
-print('Your number is' + magicNumber)
+print('Your number is' + str(magicNumber))
 print(getAnswer(magicNumber))
