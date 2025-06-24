@@ -20,4 +20,6 @@ def getAnswer(answerNumber):
     elif answerNumber == 9:
         return 'Very doubtful.'
         
-print(getAnswer(random.randint(1,9)))
+magicNumber = random.randint(1,9)
+print('Your number is' + magicNumber)
+print(getAnswer(magicNumber))
